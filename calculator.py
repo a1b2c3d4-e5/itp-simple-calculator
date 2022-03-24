@@ -3,24 +3,27 @@ def add(x, y):
 
 
 def subtract(x, y):
-    pass
+    return x-y
 
 
 def divide(x, y):
-    pass
+    if y>0 or y<0:
+        return x/y
+    else:
+        return "Invalid denominator!Don't divide by 0"
 
 
 def multiply(x, y):
-    pass
+    return x*y
 
 
 def square(x):
-    pass
+    return x**2
 
 
 def power(x, y):
-    pass
+    return x**y
 
-
+import math
 def sqrt(x):
-    pass
+    return math.sqrt(x)
